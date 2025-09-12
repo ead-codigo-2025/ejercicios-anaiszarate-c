@@ -1,0 +1,102 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+body {
+  background-color: #f9f9f9;
+  color: #1a1a1a;
+  line-height: 1.6;
+}
+
+.main-section {
+  padding: 50px 5%;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.intro h1 {
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+
+.intro p {
+  max-width: 600px;
+  margin-bottom: 15px;
+}
+
+.btn {
+  display: inline-block;
+  background-color: #f6a000;
+  color: #000;
+  text-decoration: none;
+  padding: 10px 20px;
+  border-radius: 6px;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.btn:hover {
+  background-color: #d98c00;
+}
+
+.services {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 1rem;
+}
+
+.service {
+  background-color: #f1f1f1;
+  padding: 15px;
+  border-radius: 8px;
+  font-weight: 500;
+}
+
+.talleres-section {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 50px;
+  background-color: #0e264a;
+  color: #fff;
+}
+
+.talleres-text {
+  flex: 1;
+  padding: 40px;
+}
+
+.talleres-text h3 {
+  font-size: 0.9rem;
+  color: #9eb4cc;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+
+.talleres-text h2 {
+  font-size: 1.8rem;
+  margin-bottom: 15px;
+}
+
+.talleres-text p {
+  font-size: 1rem;
+  max-width: 500px;
+  margin-bottom: 20px;
+}
+
+.talleres-img {
+  flex: 1;
+  min-width: 300px;
+  max-height: 400px;
+  overflow: hidden;
+}
+
+.talleres-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
